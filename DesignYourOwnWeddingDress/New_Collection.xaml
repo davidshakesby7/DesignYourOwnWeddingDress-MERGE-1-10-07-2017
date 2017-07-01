@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DesignYourOwnWeddingDress.New_Collection"
+             Title="New Collection">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15"/>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="BtnApril" Source="ComingSoon.png" Grid.Row="1" Grid.Column="0" ></Image>
+                <Image x:Name="BtnBlossom" Source="ComingSoon.png" Grid.Row="1" Grid.Column="1" ></Image>
+                <Image x:Name="BtnMelody" Source="ComingSoon.png" Grid.Row="2" Grid.Column="0" ></Image>
+                <Image x:Name="BtnTrixie" Source="ComingSoon.png" Grid.Row="2" Grid.Column="1" ></Image>
+                <Image x:Name="BtnAnya" Source="ComingSoon.png" Grid.Row="3" Grid.Column="0" ></Image>
+                <Image x:Name="BtnNina" Source="ComingSoon.png" Grid.Row="3" Grid.Column="1" ></Image>
+                <Image x:Name="BtnLaurie" Source="ComingSoon.png" Grid.Row="4" Grid.Column="0" ></Image>
+                <Image x:Name="BtnHermione" Source="ComingSoon.png" Grid.Row="4" Grid.Column="1" ></Image>
+
+
+
+                <Image x:Name="BtnCarla" Source="ComingSoon.png" Grid.Row="9" Grid.Column="0" ></Image>
+                <Image x:Name="BtnFifi" Source="ComingSoon.png" Grid.Row="9" Grid.Column="1" ></Image>
+                
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DesignYourOwnWeddingDress.DressModal">
+	<ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!--<Label x:Name="Title" Text="Dress 1" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" Grid.ColumnSpan="4"/>-->
+                <!--Find a Better Way to remove white space at top -->
+                <Image x:Name="GlryMain" Source="Single01Sarah.png" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Margin ="0, -40"/>
+                <Image x:Name="BackBtn" Source="back.png" Grid.Row="0" Grid.Column="0"></Image>
+
+                <Label x:Name="GlryDescShort" Margin="20" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Text="Dress Description Here"/>
+                <Label x:Name="GlryDescLong" Margin ="20" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan ="4"/>
+                <Image x:Name="EditBtn" Source="button-edit.png" Grid.Row="3" Grid.Column ="0" Grid.ColumnSpan="2" ></Image>
+                <Image x:Name="OrderBtn" Source="button-order.png" Grid.Row="3" Grid.Column ="2" Grid.ColumnSpan="2" ></Image>
+                <Image x:Name="WebsiteBtn" Source="button-website.png" Grid.Row="4" Grid.Column ="0" Grid.ColumnSpan="4"></Image>
+            </Grid>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

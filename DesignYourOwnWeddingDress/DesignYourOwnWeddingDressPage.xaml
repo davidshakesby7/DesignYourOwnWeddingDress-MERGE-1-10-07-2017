@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DesignYourOwnWeddingDress" x:Class="DesignYourOwnWeddingDress.DesignYourOwnWeddingDressPage" >
+	<Label Text="Welcome to Xamarin Forms!" 
+        VerticalOptions="Center" 
+    HorizontalOptions="Center"/>
+
+     <MasterDetailPage.Master>
+        
+        <ContentPage  BackgroundColor="#3A3A3A" Title="Master" Icon="HamburgerIcon.png" >
+            <ContentPage.Content>
+                <StackLayout >
+                    <Image Source="NavIcon.png"></Image>
+
+                    <Image x:Name="BtnHome" Source="1-Homepage.png" ></Image>
+                    <Image x:Name="BtnDressDesigner" Source="2-Designer.png"></Image>
+                    <Image x:Name="BtnStockistFinder" Source="3-Stockist.png"></Image>
+                    <Image x:Name="BtnCurrentCollection" Source="4-CurrentCollection.png" ></Image>
+                    <Image x:Name="BtnNewCollection" Source="5-NewCollection.png" ></Image>
+                    <Image x:Name="BtnMyDresses" Source="6-MyDresses.png" ></Image>
+                    <Image x:Name="BtnContact" Source="7-Contact.png" ></Image>
+                   
+
+                </StackLayout>
+
+            </ContentPage.Content>
+
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage  BackgroundColor="#3A3A3A"  >
+            <ContentPage.Content>
+                <StackLayout>
+                    <Label TextColor="Black" Text="Welcome" HorizontalTextAlignment="Center"/>
+
+                
+
+                </StackLayout>
+
+            </ContentPage.Content>
+
+        </ContentPage>
+    </MasterDetailPage.Detail>
+        
+
+
+
+</MasterDetailPage>

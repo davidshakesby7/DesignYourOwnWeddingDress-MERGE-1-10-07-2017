@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{F59ECFA6-A963-4FB4-8985-54D917559280}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DesignYourOwnWeddingDress.iOS</RootNamespace>
+    <AssemblyName>DesignYourOwnWeddingDress.iOS</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>50212</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>55288</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.iOS">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HamburgerIcon.png" />
+    <BundleResource Include="Resources\background.png" />
+    <BundleResource Include="Resources\back.png" />
+    <BundleResource Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb01Sarah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb02Rhian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb03Darla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb04Poppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb05Millie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb06Beatrice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb08Charlotte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb09Claire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb10Florence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb07Leonora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single01sarah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb11Frances.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb12Jocelyn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb13Eliza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb14Daisy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb15Primrose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb16Maggie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb17Mercy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb18Lily.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb19Evie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb20Mae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single02Rhian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single03Darla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single04Poppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single05Millie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single06Beatrice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single07Leonora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single08Charlotte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single09Claire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single10Florence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single11Frances.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single12Jocelyn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single13Eliza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single14Daisy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single15Primrose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single16Maggie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single17Mercy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single18Lily.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single19Evie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Single20Mae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\button-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\button-order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\button-website.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ComingSoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb01April.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\1-Homepage-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\1-Homepage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\2-Designer-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\2-Designer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\3-Stockist-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\3-Stockist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\4-CurrentCollection-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\4-CurrentCollection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\5-NewCollection-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\5-NewCollection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\6-MyDresses-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\6-MyDresses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\7-Contact-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\7-Contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sidebar-top-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\NavIcon.png" />
+  </ItemGroup>
+  <Import Project="..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems" Label="Shared" Condition="Exists('..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.2.3.4.231\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.231\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
+</Project>

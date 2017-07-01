@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DesignYourOwnWeddingDress.Current_Collection"
+             Title="Current Collection">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid ColumnSpacing="20" >
+                <Grid.RowDefinitions>
+                    
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    
+                    
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="15" />
+
+                </Grid.ColumnDefinitions>
+                
+                <Image x:Name="BtnSarah" Source="Thumb01Sarah.png" Grid.Row="1" Grid.Column="1"></Image>
+                <Image x:Name="BtnRhian" Source="Thumb02Rhian.png"  Grid.Row="1" Grid.Column="2"></Image>
+                <Image x:Name="BtnDarla" Source="Thumb03Darla.png" Grid.Row="2" Grid.Column="1"></Image>
+                <Image x:Name="BtnPoppy" Source="Thumb04Poppy.png" Grid.Row="2" Grid.Column="2"></Image>
+                <Image x:Name="BtnMillie" Source="Thumb05Millie.png" Grid.Row="3" Grid.Column="1" ></Image>
+                <Image x:Name="BtnBeatrice" Source="Thumb06Beatrice.png" Grid.Row="3" Grid.Column="2" ></Image>
+                <Image x:Name="BtnLeonora" Source="Thumb07Leonora.png" Grid.Row="4" Grid.Column="1" ></Image>
+                <Image x:Name="BtnCharlotte" Source="Thumb08Charlotte.png" Grid.Row="4" Grid.Column="2" ></Image>
+                <Image x:Name="BtnClaire" Source="Thumb09Claire.png" Grid.Row="5" Grid.Column="1" ></Image>
+                <Image x:Name="BtnFlorence" Source="Thumb10Florence.png" Grid.Row="5" Grid.Column="2" ></Image>
+                <Image x:Name="BtnFrances" Source="Thumb11Frances.png" Grid.Row="6" Grid.Column="1" ></Image>
+                <Image x:Name="BtnJocelyn" Source="Thumb12Jocelyn.png" Grid.Row="6" Grid.Column="2" ></Image>
+                <Image x:Name="BtnEliza" Source="Thumb13Eliza.png" Grid.Row="7" Grid.Column="1" ></Image>
+                <Image x:Name="BtnDaisy" Source="Thumb14Daisy.png" Grid.Row="7" Grid.Column="2" ></Image>
+                <Image x:Name="BtnPrimrose" Source="Thumb15Primrose.png" Grid.Row="8" Grid.Column="1" ></Image>
+                <Image x:Name="BtnMaggie" Source="Thumb16Maggie.png" Grid.Row="8" Grid.Column="2" ></Image>
+                <Image x:Name="BtnMercy" Source="Thumb17Mercy.png" Grid.Row="9" Grid.Column="1" ></Image>
+                <Image x:Name="BtnLily" Source="Thumb18Lily.png" Grid.Row="9" Grid.Column="2" ></Image>
+                <Image x:Name="BtnEvie" Source="Thumb19Evie.png" Grid.Row="10" Grid.Column="1" ></Image>
+                <Image x:Name="BtnMae" Source="Thumb20Mae.png" Grid.Row="10" Grid.Column="2" ></Image>
+                
+                
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
