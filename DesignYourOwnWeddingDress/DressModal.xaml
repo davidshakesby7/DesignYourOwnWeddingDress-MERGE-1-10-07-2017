@@ -26,9 +26,9 @@
 
                 <Label x:Name="GlryDescShort" Margin="20" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Text="Dress Description Here"/>
                 <Label x:Name="GlryDescLong" Margin ="20" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan ="4"/>
-                <Image x:Name="EditBtn" Source="button-edit.png" Grid.Row="3" Grid.Column ="0" Grid.ColumnSpan="2" ></Image>
-                <Image x:Name="OrderBtn" Source="button-order.png" Grid.Row="3" Grid.Column ="2" Grid.ColumnSpan="2" ></Image>
-                <Image x:Name="WebsiteBtn" Source="button-website.png" Grid.Row="4" Grid.Column ="0" Grid.ColumnSpan="4"></Image>
+                <Image x:Name="EditBtn" Source="ButtonEdit.png" Grid.Row="3" Grid.Column ="0" Grid.ColumnSpan="2" ></Image>
+                <Image x:Name="OrderBtn" Source="ButtonOrder.png" Grid.Row="3" Grid.Column ="2" Grid.ColumnSpan="2" ></Image>
+                <Image x:Name="WebsiteBtn" Source="ButtonWebsite.png" Grid.Row="4" Grid.Column ="0" Grid.ColumnSpan="4"></Image>
             </Grid>
         </ScrollView>
 	</ContentPage.Content>

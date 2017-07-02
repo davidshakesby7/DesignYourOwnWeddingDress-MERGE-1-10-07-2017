@@ -117,73 +117,76 @@
     <Compile Include="AppDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\HamburgerIcon.png" />
-    <BundleResource Include="Resources\background.png" />
     <BundleResource Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\ButtonEdit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\ButtonOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\ButtonWebsite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ComingSoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\ContactInvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\CurrentCollection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\CurrentCollectionInvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Designer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\DesignerInvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\DressMakerBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HamburgerIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Homepage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\HomepageInvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\MyDresses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\MyDressesInvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\NavIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\NewCollection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\NewCollectionInvert.png" />
+  </ItemGroup>
+  <ItemGroup>
     <BundleResource Include="Resources\padlock.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Thumb01Sarah.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb02Rhian.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb03Darla.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb04Poppy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb05Millie.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb06Beatrice.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb08Charlotte.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb09Claire.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb10Florence.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb07Leonora.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Single01sarah.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb11Frances.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb12Jocelyn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb13Eliza.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb14Daisy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb15Primrose.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb16Maggie.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb17Mercy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb18Lily.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb19Evie.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Thumb20Mae.png" />
+    <AndroidResource Include="Resources\SideBarTop.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Single02Rhian.png" />
@@ -243,67 +246,76 @@
     <BundleResource Include="Resources\Single20Mae.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\button-edit.png" />
+    <AndroidResource Include="Resources\SingleSarah.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\button-order.png" />
+    <AndroidResource Include="Resources\Stockist.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\button-website.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\ComingSoon.png" />
+    <AndroidResource Include="Resources\StockistInvert.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Thumb01April.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\1-Homepage-invert.png" />
+    <BundleResource Include="Resources\Thumb01Sarah.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\1-Homepage.png" />
+    <BundleResource Include="Resources\Thumb02Rhian.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\2-Designer-invert.png" />
+    <BundleResource Include="Resources\Thumb03Darla.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\2-Designer.png" />
+    <BundleResource Include="Resources\Thumb04Poppy.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\3-Stockist-invert.png" />
+    <BundleResource Include="Resources\Thumb05Millie.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\3-Stockist.png" />
+    <BundleResource Include="Resources\Thumb06Beatrice.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\4-CurrentCollection-invert.png" />
+    <BundleResource Include="Resources\Thumb07Leonora.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\4-CurrentCollection.png" />
+    <BundleResource Include="Resources\Thumb08Charlotte.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\5-NewCollection-invert.png" />
+    <BundleResource Include="Resources\Thumb09Claire.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\5-NewCollection.png" />
+    <BundleResource Include="Resources\Thumb10Florence.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\6-MyDresses-invert.png" />
+    <BundleResource Include="Resources\Thumb11Frances.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\6-MyDresses.png" />
+    <BundleResource Include="Resources\Thumb12Jocelyn.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\7-Contact-invert.png" />
+    <BundleResource Include="Resources\Thumb13Eliza.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\7-Contact.png" />
+    <BundleResource Include="Resources\Thumb14Daisy.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\sidebar-top-icon.png" />
+    <BundleResource Include="Resources\Thumb15Primrose.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\NavIcon.png" />
+    <BundleResource Include="Resources\Thumb16Maggie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb17Mercy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb18Lily.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb19Evie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Thumb20Mae.png" />
   </ItemGroup>
   <Import Project="..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems" Label="Shared" Condition="Exists('..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

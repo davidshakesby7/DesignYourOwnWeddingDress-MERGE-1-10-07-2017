@@ -4,27 +4,76 @@ namespace DesignYourOwnWeddingDress
 {
     public partial class DesignYourOwnWeddingDressPage : MasterDetailPage
     {
+
+        public int NavIndex { get; set; }
+
         public DesignYourOwnWeddingDressPage()
         {
             InitializeComponent();
-
+            
 
             Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
 
-            //Attaching Gesture Recognizers to Button pngs and then change to inverse.
-            var BtnHomeRecognizer = new TapGestureRecognizer();
+            
+
+
+
+
+
+
+
+
+
+        //Attaching Gesture Recognizers to Button pngs and then change to inverse.
+        var BtnHomeRecognizer = new TapGestureRecognizer();
             BtnHomeRecognizer.Tapped += tapImage_TappedHome;
             BtnHome.GestureRecognizers.Add(BtnHomeRecognizer);
             void tapImage_TappedHome(object sender, System.EventArgs e)
             {
-                Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
-                BtnHome.Source = "1-Homepage-invert.png";
-                BtnDressDesigner.Source = "2-Designer.png";
-                BtnStockistFinder.Source = "3-Stockist.png";
-                BtnCurrentCollection.Source = "4-CurrentCollection.png";
-                BtnNewCollection.Source = "5-NewCollection.png";
-                BtnMyDresses.Source = "6-MyDresses.png";
-                BtnContact.Source = "7-Contact.png";
+                
+                
+                switch (NavIndex)
+                {
+                    case 0: Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnHome.Source = "HomepageInvert.png";
+                        break;
+                    case 1: Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnDressDesigner.Source = "Designer.png";
+                        BtnHome.Source = "HomepageInvert.png";
+                        break;
+                    case 2: Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnStockistFinder.Source = "Stockist.png";
+                        BtnHome.Source = "HomepageInvert.png";
+                        break;
+                    case 3:
+                        Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnCurrentCollection.Source = "CurrentCollection.png";
+                        BtnHome.Source = "HomepageInvert.png";
+                        break;
+                    case 4:
+                        Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnNewCollection.Source = "NewCollection.png";
+                        BtnHome.Source = "HomepageInvert.png";
+                        break;
+                    case 5:
+                        Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnMyDresses.Source = "MyDresses.png";
+                        BtnHome.Source = "HomepageInvert.png";
+                        break;
+                    case 6:
+                        Detail = new NavigationPage(new Homepage()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnContact.Source = "Contact.png";
+                        BtnHome.Source = "HomepageInvert.png";
+                        break;
+                }
+
+
+                NavIndex = 0;
+
+
+                
+                
+                
 
             }
 
@@ -33,14 +82,46 @@ namespace DesignYourOwnWeddingDress
             BtnDressDesigner.GestureRecognizers.Add(BtnDesignerRecognizer);
             void tapImage_TappedDesigner(object sender, System.EventArgs e)
             {
-                Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
-                BtnHome.Source = "1-Homepage.png";
-                BtnDressDesigner.Source = "2-Designer-invert.png";
-                BtnStockistFinder.Source = "3-Stockist.png";
-                BtnCurrentCollection.Source = "4-CurrentCollection.png";
-                BtnNewCollection.Source = "5-NewCollection.png";
-                BtnMyDresses.Source = "6-MyDresses.png";
-                BtnContact.Source = "7-Contact.png";
+                switch (NavIndex)
+                {
+                    case 0:
+                        Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnHome.Source = "Homepage.png";
+                        BtnDressDesigner.Source = "DesignerInvert.png";
+                        break;
+                    case 1:
+                        Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnDressDesigner.Source = "DesignerInvert.png";
+                        break;
+                    case 2:
+                        Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnStockistFinder.Source = "Stockist.png";
+                        BtnDressDesigner.Source = "DesignerInvert.png";
+                        break;
+                    case 3:
+                        Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnCurrentCollection.Source = "CurrentCollection.png";
+                        BtnDressDesigner.Source = "DesignerInvert.png";
+                        break;
+                    case 4:
+                        Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnNewCollection.Source = "NewCollection.png";
+                        BtnDressDesigner.Source = "DesignerInvert.png";
+                        break;
+                    case 5:
+                        Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnMyDresses.Source = "MyDresses.png";
+                        BtnDressDesigner.Source = "DesignerInvert.png";
+                        break;
+                    case 6:
+                        Detail = new NavigationPage(new Dress_Designer()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnContact.Source = "Contact.png";
+                        BtnDressDesigner.Source = "DesignerInvert.png";
+                        break;
+                }
+
+
+                NavIndex = 1;
 
             }
 
@@ -49,14 +130,46 @@ namespace DesignYourOwnWeddingDress
             BtnStockistFinder.GestureRecognizers.Add(BtnStockistRecognizer);
             void tapImage_TappedStockist(object sender, System.EventArgs e)
             {
-                Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
-                BtnHome.Source = "1-Homepage.png";
-                BtnDressDesigner.Source = "2-Designer";
-                BtnStockistFinder.Source = "3-Stockist-invert.png";
-                BtnCurrentCollection.Source = "4-CurrentCollection.png";
-                BtnNewCollection.Source = "5-NewCollection.png";
-                BtnMyDresses.Source = "6-MyDresses.png";
-                BtnContact.Source = "7-Contact.png";
+                switch (NavIndex)
+                {
+                    case 0:
+                        Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnHome.Source = "Homepage.png";
+                        BtnStockistFinder.Source = "StockistInvert.png";
+                        break;
+                    case 1:
+                        Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnDressDesigner.Source = "Designer.png";
+                        BtnStockistFinder.Source = "StockistInvert.png";
+                        break;
+                    case 2:
+                        Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnStockistFinder.Source = "StockistInvert.png";
+                        break;
+                    case 3:
+                        Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnCurrentCollection.Source = "CurrentCollection.png";
+                        BtnStockistFinder.Source = "StockistInvert.png";
+                        break;
+                    case 4:
+                        Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnNewCollection.Source = "NewCollection.png";
+                        BtnStockistFinder.Source = "StockistInvert.png";
+                        break;
+                    case 5:
+                        Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnMyDresses.Source = "MyDresses.png";
+                        BtnStockistFinder.Source = "StockistInvert.png";
+                        break;
+                    case 6:
+                        Detail = new NavigationPage(new Map()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnContact.Source = "Contact.png";
+                        BtnStockistFinder.Source = "StockistInvert.png";
+                        break;
+                }
+
+
+                NavIndex = 2;
 
             }
 
@@ -65,15 +178,46 @@ namespace DesignYourOwnWeddingDress
             BtnCurrentCollection.GestureRecognizers.Add(BtnCurrentCollectionRecognizer);
             void tapImage_TappedCurrentCollection(object sender, System.EventArgs e)
             {
-                Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
-                BtnHome.Source = "1-Homepage.png";
-                BtnDressDesigner.Source = "2-Designer.png";
-                BtnStockistFinder.Source = "3-Stockist.png";
-                BtnCurrentCollection.Source = "4-CurrentCollection-invert.png";
-                BtnNewCollection.Source = "5-NewCollection.png";
-                BtnMyDresses.Source = "6-MyDresses.png";
-                BtnContact.Source = "7-Contact.png";
+                switch (NavIndex)
+                {
+                    case 0:
+                        Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnHome.Source = "Homepage.png";
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        break;
+                    case 1:
+                        Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnDressDesigner.Source = "Designer.png";
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        break;
+                    case 2:
+                        Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnStockistFinder.Source = "Stockist.png";
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        break;
+                    case 3:
+                        Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        break;
+                    case 4:
+                        Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnNewCollection.Source = "NewCollection.png";
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        break;
+                    case 5:
+                        Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnMyDresses.Source = "MyDresses.png";
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        break;
+                    case 6:
+                        Detail = new NavigationPage(new Current_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnContact.Source = "Contact.png";
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        break;
+                }
 
+
+                NavIndex = 3;
             }
 
             
@@ -82,14 +226,46 @@ namespace DesignYourOwnWeddingDress
             BtnNewCollection.GestureRecognizers.Add(BtnNewCollectionRecognizer);
             void tapImage_TappedNewCollection(object sender, System.EventArgs e)
             {
-                Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
-                BtnHome.Source = "1-Homepage.png";
-                BtnDressDesigner.Source = "2-Designer.png";
-                BtnStockistFinder.Source = "3-Stockist.png";
-                BtnCurrentCollection.Source = "4-CurrentCollection.png";
-                BtnNewCollection.Source = "5-NewCollection-invert.png";
-                BtnMyDresses.Source = "6-MyDresses.png";
-                BtnContact.Source = "7-Contact.png";
+                switch (NavIndex)
+                {
+                    case 0:
+                        Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnHome.Source = "Homepage.png";
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        break;
+                    case 1:
+                        Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnDressDesigner.Source = "Designer.png";
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        break;
+                    case 2:
+                        Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnStockistFinder.Source = "Stockist.png";
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        break;
+                    case 3:
+                        Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnCurrentCollection.Source = "CurrentCollection.png";
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        break;
+                    case 4:
+                        Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        break;
+                    case 5:
+                        Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnMyDresses.Source = "MyDresses.png";
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        break;
+                    case 6:
+                        Detail = new NavigationPage(new New_Collection()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnContact.Source = "Contact.png";
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        break;
+                }
+
+
+                NavIndex = 4;
 
             }
 
@@ -100,14 +276,46 @@ namespace DesignYourOwnWeddingDress
             BtnMyDresses.GestureRecognizers.Add(BtnMyDressesRecognizer);
             void tapImage_TappedMyDresses(object sender, System.EventArgs e)
             {
-                Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
-                BtnHome.Source = "1-Homepage.png";
-                BtnDressDesigner.Source = "2-Designer.png";
-                BtnStockistFinder.Source = "3-Stockist.png";
-                BtnCurrentCollection.Source = "4-CurrentCollection.png";
-                BtnNewCollection.Source = "5-NewCollection.png";
-                BtnMyDresses.Source = "6-MyDresses-invert.png";
-                BtnContact.Source = "7-Contact.png";
+                switch (NavIndex)
+                {
+                    case 0:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnHome.Source = "Homepage.png";
+                        BtnMyDresses.Source = "MyDressesInvert.png";
+                        break;
+                    case 1:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnDressDesigner.Source = "Designer.png";
+                        BtnMyDresses.Source = "MyDressesInvert.png";
+                        break;
+                    case 2:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnStockistFinder.Source = "Stockist.png";
+                        BtnMyDresses.Source = "MyDressesInvert.png";
+                        break;
+                    case 3:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        BtnMyDresses.Source = "MyDressesInvert.png";
+                        break;
+                    case 4:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        BtnMyDresses.Source = "MyDressesInvert.png";
+                        break;
+                    case 5:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnMyDresses.Source = "MyDressesInvert.png";
+                        break;
+                    case 6:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnContact.Source = "Contact.png";
+                        BtnMyDresses.Source = "MyDressesInvert.png";
+                        break;
+                }
+
+
+                NavIndex = 5;
 
             }
 
@@ -116,14 +324,46 @@ namespace DesignYourOwnWeddingDress
             BtnContact.GestureRecognizers.Add(BtnContactRecognizer);
             void tapImage_TappedContact(object sender, System.EventArgs e)
             {
-                Detail = new NavigationPage(new Contact()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
-                BtnHome.Source = "1-Homepage.png";
-                BtnDressDesigner.Source = "2-Designer.png";
-                BtnStockistFinder.Source = "3-Stockist.png";
-                BtnCurrentCollection.Source = "4-CurrentCollection.png";
-                BtnNewCollection.Source = "5-NewCollection.png";
-                BtnMyDresses.Source = "6-MyDresses.png";
-                BtnContact.Source = "7-Contact-invert.png";
+                switch (NavIndex)
+                {
+                    case 0:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnHome.Source = "Homepage.png";
+                        BtnContact.Source = "ContactInvert.png";
+                        break;
+                    case 1:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnDressDesigner.Source = "Designer.png";
+                        BtnContact.Source = "ContactInvert.png";
+                        break;
+                    case 2:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnStockistFinder.Source = "Stockist.png";
+                        BtnContact.Source = "ContactInvert.png";
+                        break;
+                    case 3:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnCurrentCollection.Source = "CurrentCollectionInvert.png";
+                        BtnContact.Source = "ContactInvert.png";
+                        break;
+                    case 4:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnNewCollection.Source = "NewCollectionInvert.png";
+                        BtnContact.Source = "ContactInvert.png";
+                        break;
+                    case 5:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnMyDresses.Source = "MyDresses.png";
+                        BtnContact.Source = "ContactInvert.png";
+                        break;
+                    case 6:
+                        Detail = new NavigationPage(new MyDresses()) { BarBackgroundColor = Color.FromHex("#3A3A3A"), BarTextColor = Color.White };
+                        BtnContact.Source = "ContactInvert.png";
+                        break;
+                }
+
+
+                NavIndex = 6;
 
             }
 

@@ -5,6 +5,16 @@
     Title="Dress Maker"
     BackgroundImage="background.png">
 	<ContentPage.Content>
-        <Label Text="Making your own dress"/>
-	</ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinitions Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinitions Width="*"/>
+            </Grid.ColumnDefinitions>
+
+                    <Image Source="DressMakerBox.png" Grid.Row="0" Grid.Column="0" ></Image>
+           
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

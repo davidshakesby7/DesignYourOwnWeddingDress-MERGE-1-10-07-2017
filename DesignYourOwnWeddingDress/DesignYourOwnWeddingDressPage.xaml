@@ -11,19 +11,21 @@
                 <StackLayout >
                     <Image Source="NavIcon.png"></Image>
 
-                    <Image x:Name="BtnHome" Source="1-Homepage.png" ></Image>
-                    <Image x:Name="BtnDressDesigner" Source="2-Designer.png"></Image>
-                    <Image x:Name="BtnStockistFinder" Source="3-Stockist.png"></Image>
-                    <Image x:Name="BtnCurrentCollection" Source="4-CurrentCollection.png" ></Image>
-                    <Image x:Name="BtnNewCollection" Source="5-NewCollection.png" ></Image>
-                    <Image x:Name="BtnMyDresses" Source="6-MyDresses.png" ></Image>
-                    <Image x:Name="BtnContact" Source="7-Contact.png" ></Image>
+                    <Image x:Name="BtnHome" Source="Homepage.png" ></Image>
+                    <Image x:Name="BtnDressDesigner" Source="Designer.png"></Image>
+                    <Image x:Name="BtnStockistFinder" Source="Stockist.png"></Image>
+                    <Image x:Name="BtnCurrentCollection" Source="CurrentCollection.png" ></Image>
+                    <Image x:Name="BtnNewCollection" Source="NewCollection.png" ></Image>
+                    <Image x:Name="BtnMyDresses" Source="MyDresses.png" ></Image>
+                    <Image x:Name="BtnContact" Source="Contact.png" ></Image>
                    
 
                 </StackLayout>
 
+                
             </ContentPage.Content>
 
+            
         </ContentPage>
     </MasterDetailPage.Master>
 
