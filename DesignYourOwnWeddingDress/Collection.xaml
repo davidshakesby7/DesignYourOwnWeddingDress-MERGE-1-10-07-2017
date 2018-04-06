@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="DesignYourOwnWeddingDress.Collections"
+     BackgroundImage="background.png"
+    Title="Collection">
+    
+    <ContentPage.Content>
+        <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15"/>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="15" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="15" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="15" />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="ImgBtn1" Source="isabella.jpg" Grid.Row="1" Grid.Column="0" ></Image>
+            <Image x:Name="ImgBtn2" Source="Mercy.jpg" Grid.Row="1" Grid.Column="1" ></Image>
+            <Label Text="Isabella" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center"/>
+            <Label Text="Mercy" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" />
+
+            <Image x:Name="ImgBtn3" Source="chloe.jpg" Grid.Row="3" Grid.Column="0" ></Image>
+            <Image x:Name="ImgBtn4" Source="rosie.jpg" Grid.Row="3" Grid.Column="1" ></Image>
+            <Label Text="Chloe" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center"/>
+            <Label Text="Rosie" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" />
+
+            <Image x:Name="ImgBtn5" Source="alice.jpg" Grid.Row="5" Grid.Column="0" ></Image>
+            <Image x:Name="ImgBtn6" Source="florence.jpg" Grid.Row="5" Grid.Column="1" ></Image>
+            <Label Text="Alice" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center"/>
+            <Label Text="Florence" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" />
+
+            <Image x:Name="ImgBtn7" Source="Beatrice.jpg" Grid.Row="7" Grid.Column="0" ></Image>
+            <Image x:Name="ImgBtn8" Source="Gloria.jpg" Grid.Row="7" Grid.Column="1" ></Image>
+            <Label Text="Beatrice" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center"/>
+            <Label Text="Gloria" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" />
+
+            
+            <Image x:Name="ImgBtn9" Source="Millie.jpg" Grid.Row="9" Grid.Column="0" ></Image>
+            <Image x:Name="ImgBtn10" Source="alice.jpg" Grid.Row="9" Grid.Column="1" ></Image>
+            <Label Text="Millie" Grid.Row="10" Grid.Column="0" HorizontalTextAlignment="Center"/>
+            <Label Text="Gloria" Grid.Row="10" Grid.Column="1" HorizontalTextAlignment="Center" />  
+                
+        </Grid>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

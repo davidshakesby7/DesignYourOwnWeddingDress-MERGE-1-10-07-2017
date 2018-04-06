@@ -11,7 +11,7 @@
                 <StackLayout >
                     <Image Source="NavIcon.png"></Image>
 
-                    <Image x:Name="BtnHome" Source="Homepage.png" ></Image>
+                    <Image x:Name="BtnHome" Source="homepage.png" ></Image>
                     <Image x:Name="BtnDressDesigner" Source="Designer.png"></Image>
                     <Image x:Name="BtnStockistFinder" Source="Stockist.png"></Image>
                     <Image x:Name="BtnCurrentCollection" Source="CurrentCollection.png" ></Image>

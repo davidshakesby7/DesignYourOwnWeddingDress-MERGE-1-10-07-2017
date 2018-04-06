@@ -12,9 +12,8 @@ namespace DesignYourOwnWeddingDress
             InitializeComponent();
 
         }
-        
 
-        public DressModal(string GlryMainVal,string DescValShort, string DescValLong)
+        public DressModal(string TitleVal, string GlryMainVal, string GlryItem1Val, string GlryItem2Val, string GlryItem3Val, string GlryItem4Val, string DescVal)
         {
             InitializeComponent();
 
@@ -22,8 +21,8 @@ namespace DesignYourOwnWeddingDress
 
             string GlryMainSrc = GlryMainVal;
             
-            string DescShort = DescValShort;
-            string DescLong = DescValLong;
+            string DescShort = TitleVal;
+            string DescLong = DescVal;
 
             //Then attach string to GlryMain, and Descs.
             GlryMain.Source = GlryMainSrc;

@@ -118,75 +118,231 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\back.png" />
+    <BundleResource Include="Resources\MapofStockist.png" />
+    <BundleResource Include="Resources\Stockist_Webpage.png" />
+    <BundleResource Include="Resources\dd_backbodice_asymetricright_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_asymetricright.png" />
+    <BundleResource Include="Resources\dd_backbodice_asymtericleft_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_asymtericleft.png" />
+    <BundleResource Include="Resources\dd_backbodice_bardot_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_bardot.png" />
+    <BundleResource Include="Resources\dd_backbodice_deepscoop_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_deepscoop.png" />
+    <BundleResource Include="Resources\dd_backbodice_deepv_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_deepv.png" />
+    <BundleResource Include="Resources\dd_backbodice_deepvback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_deepvback.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterback.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterwithracerback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterwithracerback.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterwithstrap_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterwithstrap.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterwithstrapraisedback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_halterwithstrapraisedback.png" />
+    <BundleResource Include="Resources\dd_backbodice_highbateau_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_highbateau.png" />
+    <BundleResource Include="Resources\dd_backbodice_highkeyhole_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_highkeyhole.png" />
+    <BundleResource Include="Resources\dd_backbodice_highneck_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_highneck.png" />
+    <BundleResource Include="Resources\dd_backbodice_highneckwithcollar_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_highneckwithcollar.png" />
+    <BundleResource Include="Resources\dd_backbodice_highscoop_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_highscoop.png" />
+    <BundleResource Include="Resources\dd_backbodice_highvback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_highvback.png" />
+    <BundleResource Include="Resources\dd_backbodice_keyhole_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_keyhole.png" />
+    <BundleResource Include="Resources\dd_backbodice_lowkeyhole_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_lowkeyhole.png" />
+    <BundleResource Include="Resources\dd_backbodice_lowsquareback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_lowsquareback.png" />
+    <BundleResource Include="Resources\dd_backbodice_lowvback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_lowvback.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderlowv_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderlowv.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderscoop_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderscoop.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderwithlowback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderwithlowback.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderwithraisedback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_offshoulderwithraisedback.png" />
+    <BundleResource Include="Resources\dd_backbodice_raisedback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_raisedback.png" />
+    <BundleResource Include="Resources\dd_backbodice_vback_icon.png" />
+    <BundleResource Include="Resources\dd_backbodice_vback.png" />
+    <BundleResource Include="Resources\DD_BackSkirt_1.png" />
+    <BundleResource Include="Resources\DD_backsleeve_34withfrill.png" />
+    <BundleResource Include="Resources\DD_backsleeve_angel.png" />
+    <BundleResource Include="Resources\DD_backsleeve_cap.png" />
+    <BundleResource Include="Resources\DD_backsleeve_cappuff.png" />
+    <BundleResource Include="Resources\DD_backsleeve_cappuffwithcuff.png" />
+    <BundleResource Include="Resources\DD_backsleeve_coldshoulder.png" />
+    <BundleResource Include="Resources\DD_backsleeve_coldshoulder34.png" />
+    <BundleResource Include="Resources\DD_backsleeve_coldshouldershort.png" />
+    <BundleResource Include="Resources\DD_backsleeve_drapped.png" />
+    <BundleResource Include="Resources\DD_backsleeve_fitandflare.png" />
+    <BundleResource Include="Resources\DD_backsleeve_flared.png" />
+    <BundleResource Include="Resources\DD_backsleeve_juliet.png" />
+    <BundleResource Include="Resources\DD_backsleeve_lantern.png" />
+    <BundleResource Include="Resources\DD_backsleeve_legomutton.png" />
+    <BundleResource Include="Resources\DD_backsleeve_longjuliet.png" />
+    <BundleResource Include="Resources\DD_backsleeve_longwithpuff.png" />
+    <BundleResource Include="Resources\DD_backsleeve_offshoulder34.png" />
+    <BundleResource Include="Resources\DD_backsleeve_offshouldercap.png" />
+    <BundleResource Include="Resources\DD_backsleeve_offshoulderlong.png" />
+    <BundleResource Include="Resources\DD_backsleeve_peasant.png" />
+    <BundleResource Include="Resources\DD_backsleeve_petal.png" />
+    <BundleResource Include="Resources\DD_backsleeve_raglan.png" />
+    <BundleResource Include="Resources\DD_backsleeve_slightcap.png" />
+    <BundleResource Include="Resources\DD_backsleeve_trumpet.png" />
+    <BundleResource Include="Resources\DD_backsleeve_tshirt.png" />
+    <BundleResource Include="Resources\DD_Flip.png" />
+    <BundleResource Include="Resources\DD_FrontBodice_1_icon.png" />
+    <BundleResource Include="Resources\DD_FrontBodice_1.png" />
+    <BundleResource Include="Resources\dd_frontbodice_asymetricleft_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_asymetricleft.png" />
+    <BundleResource Include="Resources\dd_frontbodice_asymetricright_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_asymetricright.png" />
+    <BundleResource Include="Resources\dd_frontbodice_bandeau_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_bandeau.png" />
+    <BundleResource Include="Resources\dd_frontbodice_bardot_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_bardot.png" />
+    <BundleResource Include="Resources\dd_frontbodice_bateau_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_bateau.png" />
+    <BundleResource Include="Resources\dd_frontbodice_cowl_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_cowl.png" />
+    <BundleResource Include="Resources\dd_frontbodice_curved_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_curved.png" />
+    <BundleResource Include="Resources\dd_frontbodice_deepv_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_deepv.png" />
+    <BundleResource Include="Resources\dd_frontbodice_halterneck_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_halterneck.png" />
+    <BundleResource Include="Resources\dd_frontbodice_highneckwithcollar_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_highneckwithcollar.png" />
+    <BundleResource Include="Resources\dd_frontbodice_highroundcollar_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_highroundcollar.png" />
+    <BundleResource Include="Resources\dd_frontbodice_keyhole_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_keyhole.png" />
+    <BundleResource Include="Resources\dd_frontbodice_lowscoop_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_lowscoop.png" />
+    <BundleResource Include="Resources\dd_frontbodice_notched_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_notched.png" />
+    <BundleResource Include="Resources\dd_frontbodice_offshoulderhighneck_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_offshoulderhighneck.png" />
+    <BundleResource Include="Resources\dd_frontbodice_offshoulderv_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_offshoulderv.png" />
+    <BundleResource Include="Resources\dd_frontbodice_queenannesoftdip_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_queenannesoftdip.png" />
+    <BundleResource Include="Resources\dd_frontbodice_queenannesweetheart_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_queenannesweetheart.png" />
+    <BundleResource Include="Resources\dd_frontbodice_scoop_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_scoop.png" />
+    <BundleResource Include="Resources\dd_frontbodice_scoopnotched_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_scoopnotched.png" />
+    <BundleResource Include="Resources\dd_frontbodice_softdip_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_softdip.png" />
+    <BundleResource Include="Resources\dd_frontbodice_squareneckline_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_squareneckline.png" />
+    <BundleResource Include="Resources\dd_frontbodice_sweetheart_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_sweetheart.png" />
+    <BundleResource Include="Resources\dd_frontbodice_vneck_icon.png" />
+    <BundleResource Include="Resources\dd_frontbodice_vneck.png" />
+    <BundleResource Include="Resources\DD_FrontSkirt_1.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_34withfrill.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_angel.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_cap.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_cappuff.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_cappuffwithcuff.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_coldshoulder.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_coldshoulder34.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_coldshouldershort.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_drapped.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_fitandflare.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_flared.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_juliet.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_lanternsleeve.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_legomutton.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_longjuliet.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_longwithpuff.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_offshoulder34.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_offshouldercap.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_offshoulderlong.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_peasant.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_petal.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_raglan.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_slightcap.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_trumpet.png" />
+    <BundleResource Include="Resources\DD_frontsleeve_tshirt.png" />
+    <BundleResource Include="Resources\pose back.bmp" />
+    <BundleResource Include="Resources\pose front.bmp" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\background.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\ButtonEdit.png" />
+    <BundleResource Include="Resources\ButtonEdit.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\ButtonOrder.png" />
+    <BundleResource Include="Resources\ButtonOrder.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\ButtonWebsite.png" />
+    <BundleResource Include="Resources\ButtonWebsite.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ComingSoon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Contact.png" />
+    <BundleResource Include="Resources\Contact.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\ContactInvert.png" />
+    <BundleResource Include="Resources\ContactInvert.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\CurrentCollection.png" />
+    <BundleResource Include="Resources\CurrentCollection.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\CurrentCollectionInvert.png" />
+    <BundleResource Include="Resources\CurrentCollectionInvert.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Designer.png" />
+    <BundleResource Include="Resources\Designer.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\DesignerInvert.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\DressMakerBox.png" />
+    <BundleResource Include="Resources\DesignerInvert.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\HamburgerIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Homepage.png" />
+    <BundleResource Include="Resources\homepage.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\HomepageInvert.png" />
+    <BundleResource Include="Resources\HomepageInvert.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\MyDresses.png" />
+    <BundleResource Include="Resources\MyDresses.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\MyDressesInvert.png" />
+    <BundleResource Include="Resources\MyDressesInvert.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\NavIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\NewCollection.png" />
+    <BundleResource Include="Resources\NewCollection.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\NewCollectionInvert.png" />
+    <BundleResource Include="Resources\NewCollectionInvert.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\padlock.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\SideBarTop.png" />
+    <BundleResource Include="Resources\SideBarTop.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Single02Rhian.png" />
@@ -246,13 +402,13 @@
     <BundleResource Include="Resources\Single20Mae.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\SingleSarah.png" />
+    <BundleResource Include="Resources\SingleSarah.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Stockist.png" />
+    <BundleResource Include="Resources\Stockist.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\StockistInvert.png" />
+    <BundleResource Include="Resources\StockistInvert.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Thumb01April.png" />
@@ -316,6 +472,12 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Thumb20Mae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\designer_box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\designer_elements_window.png" />
   </ItemGroup>
   <Import Project="..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems" Label="Shared" Condition="Exists('..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

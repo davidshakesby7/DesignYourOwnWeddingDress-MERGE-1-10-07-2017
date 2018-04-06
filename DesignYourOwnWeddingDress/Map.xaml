@@ -5,7 +5,15 @@
     >
     
     <ContentPage.Content>
+        <StackLayout>
         
-        <Label Text="Find the local Stockist" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+            <Image Source="MapofStockist" WidthRequest="350" Margin="0,15, 0, 10" />
+
+            <Button TextColor="Black" Image="Stockist_Webpage.png" WidthRequest="250" Clicked="Open_StockistWebPage" /> 
+
+        
+
+            </StackLayout>
     </ContentPage.Content>
 </ContentPage>

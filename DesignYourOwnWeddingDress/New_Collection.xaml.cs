@@ -86,8 +86,8 @@ namespace DesignYourOwnWeddingDress
                     string GlryMainVal = "Single01Sarah.png";
                     string DescValShort = "French Lace Ballgown wedding dress with a semi sweetheart bodice, illusion neckline and full length fitted sleeves\r\n\r\nFull satin ballgown with 2 meter long train wedding dress. Structured ivory bodice with sweetheart bustline overlaid in French lace. Illusion and bateau neckline lead to long fitted sleeves. This dress is full on lace heaven and is finished with a delicate bow belt. A true Mooshki favourite and is also available in tea length.";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -110,8 +110,8 @@ namespace DesignYourOwnWeddingDress
                     string GlryMainVal = "alice.jpg";
                     string DescValShort = "Alice Dress Description";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -135,8 +135,8 @@ namespace DesignYourOwnWeddingDress
                     
                     string DescValShort = "Alice Dress Description";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -159,8 +159,8 @@ namespace DesignYourOwnWeddingDress
                     
                     string DescValShort = "Alice Dress Description";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -184,8 +184,8 @@ namespace DesignYourOwnWeddingDress
                     
                     string DescValShort = "Alice Dress Description";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -208,8 +208,8 @@ namespace DesignYourOwnWeddingDress
                     
                     string DescValShort = "Alice Dress Description";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -233,8 +233,8 @@ namespace DesignYourOwnWeddingDress
                     
                     string DescValShort = "Alice Dress Description";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal( GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -257,8 +257,8 @@ namespace DesignYourOwnWeddingDress
                     
                     string DescValShort = "Alice Dress Description";
                     string DescValLong = "";
-                    //Pop Dressmodal page, passing above values on
-                    var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+					//Pop Dressmodal page, passing above values on
+					var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                     Navigation.PushModalAsync(detailPage);
 
                 }
@@ -278,8 +278,8 @@ namespace DesignYourOwnWeddingDress
                
                 string DescValShort = "Alice Dress Description";
                 string DescValLong = "";
-                //Pop Dressmodal page, passing above values on
-                var detailPage = new DressModal(GlryMainVal,  DescValShort, DescValLong);
+				//Pop Dressmodal page, passing above values on
+				var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                 Navigation.PushModalAsync(detailPage);
 
             }
@@ -291,8 +291,8 @@ namespace DesignYourOwnWeddingDress
                
                 string DescValShort = "Alice Dress Description";
                 string DescValLong = "";
-                //Pop Dressmodal page, passing above values on
-                var detailPage = new DressModal(GlryMainVal, DescValShort, DescValLong);
+				//Pop Dressmodal page, passing above values on
+				var detailPage = new DressModal(DescValShort, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, GlryMainVal, DescValLong);
                 Navigation.PushModalAsync(detailPage);
 
             }

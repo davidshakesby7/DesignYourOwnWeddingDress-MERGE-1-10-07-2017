@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>DesignYourOwnWeddingDress.Droid</RootNamespace>
     <AssemblyName>DesignYourOwnWeddingDress.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -103,6 +103,163 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_asymetricright_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_asymetricright.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_asymtericleft_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_asymtericleft.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_bardot_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_bardot.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_deepscoop_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_deepscoop.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_deepv_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_deepv.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_deepvback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_deepvback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterwithracerback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterwithracerback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterwithstrap_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterwithstrap.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterwithstrapraisedback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_halterwithstrapraisedback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highbateau_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highbateau.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highkeyhole_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highkeyhole.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highneck_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highneck.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highneckwithcollar_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highneckwithcollar.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highscoop_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highscoop.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highvback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_highvback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_keyhole_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_keyhole.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_lowkeyhole_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_lowkeyhole.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_lowsquareback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_lowsquareback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_lowvback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_lowvback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderlowv_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderlowv.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderscoop_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderscoop.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderwithlowback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderwithlowback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderwithraisedback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_offshoulderwithraisedback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_raisedback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_raisedback.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_vback_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_backbodice_vback.png" />
+    <AndroidResource Include="Resources\drawable\DD_BackSkirt_1.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_34withfrill.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_angel.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_cap.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_cappuff.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_cappuffwithcuff.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_coldshoulder.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_coldshoulder34.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_coldshouldershort.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_drapped.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_fitandflare.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_flared.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_juliet.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_lantern.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_legomutton.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_longjuliet.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_longwithpuff.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_offshoulder34.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_offshouldercap.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_offshoulderlong.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_peasant.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_petal.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_raglan.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_slightcap.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_trumpet.png" />
+    <AndroidResource Include="Resources\drawable\DD_backsleeve_tshirt.png" />
+    <AndroidResource Include="Resources\drawable\DD_flip.png" />
+    <AndroidResource Include="Resources\drawable\DD_FrontBodice_1_icon.png" />
+    <AndroidResource Include="Resources\drawable\DD_FrontBodice_1.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_asymetricleft_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_asymetricleft.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_asymetricright_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_asymetricright.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_bandeau_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_bandeau.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_bardot_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_bardot.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_bateau_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_bateau.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_cowl_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_cowl.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_curved_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_curved.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_deepv_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_deepv.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_halterneck_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_halterneck.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_highneckwithcollar_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_highneckwithcollar.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_highroundcollar_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_highroundcollar.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_keyhole_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_keyhole.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_lowscoop_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_lowscoop.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_notched_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_notched.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_offshoulderhighneck_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_offshoulderhighneck.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_offshoulderv_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_offshoulderv.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_queenannesoftdip_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_queenannesoftdip.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_queenannesweetheart_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_queenannesweetheart.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_scoop_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_scoop.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_scoopnotched_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_scoopnotched.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_softdip_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_softdip.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_squareneckline_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_squareneckline.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_sweetheart_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_sweetheart.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_vneck_icon.png" />
+    <AndroidResource Include="Resources\drawable\dd_frontbodice_vneck.png" />
+    <AndroidResource Include="Resources\drawable\DD_FrontSkirt_1.png.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_34withfrill.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_angel.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_cap.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_cappuff.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_cappuffwithcuff.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_coldshoulder.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_coldshoulder34.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_coldshouldershort.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_drapped.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_fitandflare.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_flared.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_juliet.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_lanternsleeve.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_legomutton.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_longjuliet.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_longwithpuff.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_offshoulder34.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_offshouldercap.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_offshoulderlong.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_peasant.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_petal.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_raglan.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_slightcap.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_trumpet.png" />
+    <AndroidResource Include="Resources\drawable\DD_frontsleeve_tshirt.png" />
+    <AndroidResource Include="Resources\drawable\pose back.bmp" />
+    <AndroidResource Include="Resources\drawable\pose front.bmp" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\HomepageInvert.png" />
@@ -148,9 +305,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\drawable\back.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\drawable\background.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ButtonEdit.png" />
@@ -301,6 +455,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\DressMakerBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Resources\drawable\background.png" />
   </ItemGroup>
   <Import Project="..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems" Label="Shared" Condition="Exists('..\DesignYourOwnWeddingDress\DesignYourOwnWeddingDress.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -11,5 +11,10 @@ namespace DesignYourOwnWeddingDress
         {
             InitializeComponent();
         }
+
+        void Open_StockistWebPage(object sender, System.EventArgs e)
+        {
+            Device.OpenUri(new Uri("http://www.houseofmooshki.com/stockists/"));
+        }
     }
 }
